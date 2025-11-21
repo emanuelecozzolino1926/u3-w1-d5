@@ -25,7 +25,6 @@ const NetEditProfileCont = function () {
 
         <Col md={9}>
           <div className="profile-form">
-            {/* NAME FIELD */}
             <Form.Group className="mb-4">
               <Form.Control
                 type="text"
@@ -35,7 +34,6 @@ const NetEditProfileCont = function () {
               />
             </Form.Group>
 
-            {/* LANGUAGE DROPDOWN */}
             <Form.Group className="mb-4">
               <label className="profile-label">Language:</label>
               <DropdownButton
@@ -51,7 +49,6 @@ const NetEditProfileCont = function () {
               </DropdownButton>
             </Form.Group>
 
-            {/* MATURITY SETTINGS */}
             <Form.Group className="mb-4">
               <label className="profile-label mb-3">Maturity Settings:</label>
               <Button variant="secondary" className="maturity-btn">
@@ -72,7 +69,6 @@ const NetEditProfileCont = function () {
 
             <hr className="section-divider" />
 
-            {/* AUTOPLAY CONTROLS */}
             <Form.Group className="mb-4">
               <label className="profile-label mb-3">Autoplay controls</label>
 
@@ -94,8 +90,6 @@ const NetEditProfileCont = function () {
           </div>
         </Col>
       </Row>
-
-      {/* ACTION BUTTONS */}
       <hr className="profile-divider mt-5" />
 
       <div className="profile-actions">
