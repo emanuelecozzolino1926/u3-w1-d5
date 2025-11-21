@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import NetHeadTitle from "./NetHeadTitle";
 import NetFooter from "./NetFooter";
 import NetFilm from "./NetFilm";
+import NetProfile from "./NetProfile";
 
 const NetContainer = () => {
   return (
@@ -15,6 +16,7 @@ const NetContainer = () => {
         <h4 className="my-3">New Releases</h4>
         <NetFilm name={"Mission Impossible"} />
         <NetFooter />
+        <NetProfile />
       </Container>
     </>
   );
