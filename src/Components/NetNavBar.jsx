@@ -4,7 +4,7 @@ const NetNavBar = () => {
       <nav
         className="navbar navbar-expand-lg bg-dark"
         data-bs-theme="dark"
-        style={{ backgroundcolor: "#221f1f !important" }}
+        style={{ backgroundColor: "#221f1f !important" }}
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
